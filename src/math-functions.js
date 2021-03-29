@@ -29,6 +29,10 @@ Write a function called multiply() that takes in two numbers as arguments and re
 */
 
 export function multiply(a, b) {
+    const mult = a * b;
+    const multString = `The product of ${a} and ${b} is ${mult}.`;
+    const multArr = [mult, multString];
+    return multArr;
 
 }
 
